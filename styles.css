@@ -1,0 +1,17 @@
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #2b2733;
+  color: #fff;
+  margin: 0;
+}
+header {
+  background-color: #46424d;
+  padding: .20%, 0;
+  text-align: center;
+  text-transform: uppercase;
+
+
+}
