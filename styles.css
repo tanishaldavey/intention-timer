@@ -9,9 +9,18 @@ body {
 }
 header {
   background-color: #46424d;
-  padding: .20%, 0;
+  padding: .20% 0;
   text-align: center;
   text-transform: uppercase;
+}
 
-
+.container {
+  background-color: #46424d;
+  float: left;
+  height: 75%;
+  width: 66%;
+}
+.icons {
+  height: 2%;
+  width: 2%;
 }
