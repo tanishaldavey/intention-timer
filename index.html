@@ -1,46 +1,50 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Intention Timer</title>
-    <link href="styles.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <header>
-      <h1>Intention Timer</h1>
-    </header>
-    <main>
-      <h2>New Activity</h2>
-      <section class="container">
-        <h4>Select a category:</h4>
-        <section>
-          <div class="category-btn">
-            <img class="icons" src="images/study.svg" alt="lightbulb icon">
-            <h5>Study</h5>
+  <html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <title>Intention Timer</title>
+      <link href="styles.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+      <header>
+        <h1>Intention Timer</h1>
+      </header>
+      <section class="wrapper">
+        <main class="main-container">
+          <h2>New Activity</h2>
+          <section class="main-info">
+            <h4>Select a category:</h4>
+            <section class="btn-wrapper">
+              <div class="category-btn">
+                <img class="icons" src="images/study.svg" alt="lightbulb icon">
+                <h5>Study</h5>
+              </div>
+              <div class="category-btn">
+                <img class="icons" src="images/meditate.svg" alt="lotus flower icon">
+                <h5>Meditate</h5>
+              </div>
+              <div class="category-btn">
+                <img class="icons" src="images/exercise.svg" alt="sneaker icon">
+                <h5>Exercise</h5>
+              </div>
+            </section>
+            <div class="question-input">
+              <h4>What would you like to accomplish during this time?</h4>
+            <input class="time question"></input>
           </div>
-          <div class="category-btn">
-            <img class="icons" src="images/meditate.svg" alt="lotus flower icon">
-            <h5>Meditate</h5>
-          </div>
-          <div class="category-btn">
-            <img class="icons" src="images/exercise.svg" alt="sneaker icon">
-            <h5>Exercise</h5>
-          </div>
-        </section>
-        <h4>What would you like to accomplish during this time?</h4>
-        <input class="time question"></input>
-        <div>
-          <h4>Minutes</h4>
-          <input class="time"></input>
-          <h4>Seconds</h4>
-          <input class="time"></input>
-        </div>
-        <button class="start-btn" type="button">Start Activity</button>
+            <div class="input-time">
+              <h4>Minutes</h4>
+              <input class="time"></input>
+              <h4>Seconds</h4>
+              <input class="time"></input>
+            </div>
+            <button class="start-btn" type="button">Start Activity</button>
+          </section>
+        </main>
+        <aside>
+          <h2>Past Activities</h2>
+        </aside>
       </section>
-    </main>
-    <aside>
-      <h2>Past Activities</h2>
-    </aside>
-  </body>
-</html>
+    </body>
+  </html>
