@@ -15,7 +15,7 @@
           <h2>New Activity</h2>
           <section class="main-info">
             <h4>Select a category:</h4>
-            <section class="btn-wrapper">
+            <section class="category">
               <div class="category-btn">
                 <img class="icons" src="images/study.svg" alt="lightbulb icon">
                 <h5>Study</h5>
@@ -31,14 +31,22 @@
             </section>
             <div class="question-input">
               <h4>What would you like to accomplish during this time?</h4>
+
             <input class="time question"></input>
           </div>
+
+          <section class="idk">
             <div class="input-time">
-              <h4>Minutes</h4>
-              <input class="time"></input>
-              <h4>Seconds</h4>
+              <h4 id="min-sec">Minutes</h4>
               <input class="time"></input>
             </div>
+            <div class="time-class">
+              <!-- <input class="time"></input> -->
+              <h4 id="min-sec">Seconds</h4>
+              <input class="time"></input>
+            </div>
+          </section>
+
             <button class="start-btn" type="button">Start Activity</button>
           </section>
         </main>
