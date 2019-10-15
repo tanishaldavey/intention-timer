@@ -4,9 +4,6 @@ var startButton = document.querySelector('.start-btn');
 var warning = document.querySelector('.warning');
 var question = document.querySelector('.question');
 var warningQuestion = document.querySelector('.warning-question')
-console.log(warningQuestion);
-console.log(warningMinutes);
-console.log(warningSeconds);
 var warningMinutes = document.querySelector('.warning-minutes')
 var warningSeconds = document.querySelector('.warning-seconds')
 
