@@ -100,7 +100,9 @@ header {
 .description {
   margin-left: 10%;
 }
-.warning {
+.warning-question,
+.warning-minutes,
+.warning-seconds {
   visibility: hidden;
 }
 .warning-icon {
