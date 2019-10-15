@@ -51,7 +51,7 @@ changeExerciseBtn.addEventListener('click', function () {
 // Buttons
 minutes.addEventListener('keyup', checkInputMinutes);
 seconds.addEventListener('keyup', checkInputSeconds);
-startButton.addEventListener('click', function);
+// startButton.addEventListener('click', function);
 
 
 
