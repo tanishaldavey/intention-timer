@@ -33,21 +33,24 @@
               <h4>What would you like to accomplish during this time?</h4>
 
             <input class="time question"></input>
+            <p class="warning"><img class="description warning-icon" src="images/warning.svg" alt="warning triangle"> A description is required.</p>
           </div>
 
           <section class="idk">
             <div class="input-time">
               <h4 id="min-sec">Minutes</h4>
-              <input class="time"></input>
+              <input type="number" class="time minutes" required min="0" max="60"></input>
+              <p class="warning"><img class="warning-icon" src="images/warning.svg" alt="warning triangle"> This field is required.</p>
             </div>
             <div class="time-class">
               <!-- <input class="time"></input> -->
               <h4 id="min-sec">Seconds</h4>
-              <input class="time"></input>
+              <input type="number" class="time seconds" required min="0" max="0"></input>
+              <p class="warning"><img class="warning-icon" src="images/warning.svg" alt="warning triangle"> This field is required.</p>
             </div>
           </section>
 
-            <button class="start-btn" type="button">Start Activity</button>
+            <button type="submit" class="start-btn" type="button">Start Activity</button>
           </section>
         </main>
         <aside>
@@ -55,4 +58,5 @@
         </aside>
       </section>
     </body>
+    <script src="main.js" type="text/javascript"></script>
   </html>
