@@ -20,6 +20,8 @@ var h5Meditate = document.getElementById('h5-meditate');
 var h5Exercise = document.getElementById('h5-exercise');
 var wrapper = document.querySelector('.wrapper');
 var wrapper2 = document.querySelector('.wrapper2');
+var activityTitle = document.querySelector('.activity-title');
+var timer = document.querySelector('.timer')
 
 //ACTIVITY BUTTONS
 changeStudyBtn.addEventListener('click', function () {
@@ -71,5 +73,6 @@ startButton.addEventListener('click', function() {
   if ((question.value !== '') && (minutes.value !== '') && (seconds.value !== '')) {
     wrapper.classList.add('display-content');
     wrapper2.classList.remove('display-content');
+    activityTitle.innerText = question.value;
   }
 });
