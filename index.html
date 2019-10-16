@@ -15,38 +15,45 @@
           <h2>New Activity</h2>
           <section class="main-info">
             <h4>Select a category:</h4>
-            <section class="category">
-              <div class="category-btn">
-                <img class="icons" src="images/study.svg" alt="lightbulb icon">
-                <h5>Study</h5>
-              </div>
-              <div class="category-btn">
-                <img class="icons" src="images/meditate.svg" alt="lotus flower icon">
-                <h5>Meditate</h5>
-              </div>
-              <div class="category-btn">
-                <img class="icons" src="images/exercise.svg" alt="sneaker icon">
-                <h5>Exercise</h5>
-              </div>
-            </section>
+
+            <!-- BUTTONS BEGIN -->
+              <section class="category">
+            <!-- Study Button -->
+                <button id="study" class="study-btn">
+                  <img id="study-img" class="study-icon" src="images/study.svg">
+                  <h5 id="h5-study" class="study-btn">Study</h5>
+                </button>
+            <!-- Meditate Button -->
+                <button id="meditate" class="meditate-btn">
+                  <img id="meditate-img" class="study-btn" src="images/meditate.svg">
+                  <h5 id="h5-meditate" class="meditate-btn">Meditate</h5>
+                </button>
+            <!-- Exercise Button -->
+                <button id="exercise" class="exercise-btn">
+                  <img id="exercise-img" class="study-btn" src="images/exercise.svg">
+                  <h5 id="h5-exercise" class="exercise-btn">Exercise</h5>
+                </button>
+              </section>
+            <!-- BUTTONS END -->
+
             <div class="question-input">
               <h4>What would you like to accomplish during this time?</h4>
 
             <input class="time question"></input>
-            <p class="warning-question"><img class="description warning-icon" src="images/warning.svg" alt="warning triangle"> A description is required.</p>
+            <p class="warning"><img class="description warning-icon" src="images/warning.svg" alt="warning triangle"> A description is required.</p>
           </div>
 
           <section class="idk">
             <div class="input-time">
               <h4 id="min-sec">Minutes</h4>
               <input type="number" class="time minutes" required min="0" max="60"></input>
-              <p class="warning-minutes"><img class="warning-icon" src="images/warning.svg" alt="warning triangle"> This field is required.</p>
+              <p class="warning"><img class="warning-icon" src="images/warning.svg" alt="warning triangle"> This field is required.</p>
             </div>
             <div class="time-class">
               <!-- <input class="time"></input> -->
               <h4 id="min-sec">Seconds</h4>
               <input type="number" class="time seconds" required min="0" max="0"></input>
-              <p class="warning-seconds"><img class="warning-icon" src="images/warning.svg" alt="warning triangle"> This field is required.</p>
+              <p class="warning"><img class="warning-icon" src="images/warning.svg" alt="warning triangle"> This field is required.</p>
             </div>
           </section>
 
@@ -57,6 +64,21 @@
           <h2>Past Activities</h2>
         </aside>
       </section>
+      <!--BEGIN TIMER SECTION -->
+      <section class="wrapper2">
+        <main class="main-container2 timer-interface">
+          <h2>Current Activity</h2>
+            <section class="main-info2">
+              <h3 class="activity-title">Activity here.<h3>
+              <p class="timer">The time here.</p>
+              <div class="start-time"><p>Start</p></div>
+            </section>
+        </main>
+        <aside class="aside2">
+          <h2>Past Activities</h2>
+        </aside>
+      </section>
+      <!-- END TIMER SECTION -->
+      <script src="main.js"></script>
     </body>
-    <script src="main.js" type="text/javascript"></script>
   </html>
