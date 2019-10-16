@@ -33,28 +33,58 @@ header {
 }
  .category {
   margin: 0;
+  margin-left: 4%;
   padding: 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  width: 93%;
 }
-.category-btn {
-  border: 2px solid #fff;
+#study,
+#meditate,
+#exercise {
+  background-color: #46424d;
+  border: 2px solid #FFF;
+
   border-radius: 3px;
-  margin: 0;
-  padding: 0;
   height: 15%;
+  margin: auto;
+  padding: 0;
   width: 18%;
 }
-.icons {
+.study-btn,
+.meditate-btn,
+.exercise-btn {
+  background-color: #46424d;
+  border: none;
+  height: 100%;
+  margin: auto;
+  padding: 0;
+  width: 100%;
+}
+
+button:focus {
+  outline:0;
+}
+
+#study-img,
+#meditate-img,
+#exercise-img {
   height: 18%;
   width: 18%;
-  margin: 0 auto;
+  margin: auto;
   display: block;
   padding-top: 5%;
 }
+#h5-study,
+#h5-meditate,
+#h5-exercise {
+  color: #FFF;
+  margin: 0;
+  text-align: center;
+  padding: 3% 0 5% 0;
+}
 .question-input {
   margin-top: 10%;
-  display: inline-flex;
 }
 .description {
   margin-left: 10%;
@@ -98,7 +128,6 @@ padding: 5% 0 0 0;
   border-bottom: 1px solid #fff;
   width: 75%;
   padding: 1% 0;
-
 }
 .question {
   width: 78%;
