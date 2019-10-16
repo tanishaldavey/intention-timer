@@ -152,13 +152,12 @@ h5 {
   padding: 3% 0 5% 0;
 }
 /* Styling for the screen after the start-activity button has been clicked. */
-.wrapper  {
-  display: none;
-}
 .wrapper2 {
   display: flex;
   flex-direction: row;
-  /* display: none; */
+}
+.display-content {
+  display: none;
 }
 .main-container2 {
   background: #26222D;
