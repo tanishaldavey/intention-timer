@@ -27,19 +27,19 @@ var timer = document.querySelector('.timer');
 
 //ACTIVITY BUTTONS
 changeStudyBtn.addEventListener('click', function () {
-  study.style.border = '2px solid #B3FD78';
+  study.style.border = '3px solid #B3FD78';
   h5Study.style.color = '#B3FD78';
   studyImg.src = 'images/study-active.svg';
 });
 
 changeMeditateBtn.addEventListener('click', function () {
-  meditate.style.border = '2px solid #C278FD';
+  meditate.style.border = '3px solid #C278FD';
   h5Meditate.style.color = '#C278FD';
   meditateImg.src = 'images/meditate-active.svg';
 });
 
 changeExerciseBtn.addEventListener('click', function () {
-  exercise.style.border = '2px solid #FD8078';
+  exercise.style.border = '3px solid #FD8078';
   h5Exercise.style.color = '#FD8078';
   exerciseImg.src = 'images/exercise-active.svg';
 });
