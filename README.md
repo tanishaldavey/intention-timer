@@ -27,16 +27,13 @@ This is the first pair projet we were assigned at Turing. It's an application th
   
   
 [![Screen-Shot-2019-10-16-at-9-42-39-PM.png](https://i.postimg.cc/KYn4Y5cc/Screen-Shot-2019-10-16-at-9-42-39-PM.png)](https://postimg.cc/cKLd9w8P)
-[![Screen-Shot-2019-10-16-at-10-51-20-PM.png](https://i.postimg.cc/pV4fpRKs/Screen-Shot-2019-10-16-at-10-51-20-PM.png)](https://postimg.cc/V59rhyGt)
-
-
 [![Screen-Shot-2019-10-16-at-9-49-16-PM.png](https://i.postimg.cc/zB8vHR3C/Screen-Shot-2019-10-16-at-9-49-16-PM.png)](https://postimg.cc/XZ14Tqfq)
-[![Screen-Shot-2019-10-16-at-10-52-00-PM.png](https://i.postimg.cc/BbK1xP2M/Screen-Shot-2019-10-16-at-10-52-00-PM.png)](https://postimg.cc/5Qf0J07C)
-
 [![Screen-Shot-2019-10-16-at-9-49-32-PM.png](https://i.postimg.cc/G2K2FhsZ/Screen-Shot-2019-10-16-at-9-49-32-PM.png)](https://postimg.cc/N9yBYtD4)
-[![Screen-Shot-2019-10-16-at-10-52-09-PM.png](https://i.postimg.cc/5NzrsxJr/Screen-Shot-2019-10-16-at-10-52-09-PM.png)](https://postimg.cc/crsTHGr7)
-
 [![Screen-Shot-2019-10-16-at-9-49-53-PM.png](https://i.postimg.cc/qq77jVsg/Screen-Shot-2019-10-16-at-9-49-53-PM.png)](https://postimg.cc/ygwB8Grz)
-[![Screen-Shot-2019-10-16-at-10-53-16-PM.png](https://i.postimg.cc/wBw41M51/Screen-Shot-2019-10-16-at-10-53-16-PM.png)](https://postimg.cc/LqZ37HbS)
 
+[![Screen-Shot-2019-10-16-at-10-51-20-PM.png](https://i.postimg.cc/pV4fpRKs/Screen-Shot-2019-10-16-at-10-51-20-PM.png)](https://postimg.cc/V59rhyGt)
+[![Screen-Shot-2019-10-16-at-10-52-00-PM.png](https://i.postimg.cc/BbK1xP2M/Screen-Shot-2019-10-16-at-10-52-00-PM.png)](https://postimg.cc/5Qf0J07C)
+[![Screen-Shot-2019-10-16-at-10-52-09-PM.png](https://i.postimg.cc/5NzrsxJr/Screen-Shot-2019-10-16-at-10-52-09-PM.png)](https://postimg.cc/crsTHGr7)
+[![Screen-Shot-2019-10-16-at-10-53-16-PM.png](https://i.postimg.cc/wBw41M51/Screen-Shot-2019-10-16-at-10-53-16-PM.png)](https://postimg.cc/LqZ37HbS)
+[![Screen-Shot-2019-10-16-at-11-01-28-PM.png](https://i.postimg.cc/DzYVtBMp/Screen-Shot-2019-10-16-at-11-01-28-PM.png)](https://postimg.cc/XZFD5c39)
 [![Screen-Shot-2019-10-16-at-10-52-46-PM.png](https://i.postimg.cc/jSrF9GdS/Screen-Shot-2019-10-16-at-10-52-46-PM.png)](https://postimg.cc/qzjw6D3P)
