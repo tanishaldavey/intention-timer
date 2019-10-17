@@ -38,8 +38,7 @@ header {
  .category {
   display: flex;
   justify-content: space-between;
-  margin: 0;
-  margin-left: 4%;
+  margin: 0 0 0 4%;
   padding: 0;
   width: 93%;
 }
@@ -49,7 +48,7 @@ header {
 #meditate,
 #exercise {
   background-color: #46424d;
-  border: 2px solid #FFF;
+  border: 3px solid #FFF;
   border-radius: 3px;
   height: 15%;
   margin: auto;
@@ -75,6 +74,7 @@ button:focus {
 #study-img,
 #meditate-img,
 #exercise-img {
+  border: 2px 2px 0 2px;
   display: block;
   height: 18%;
   margin: auto;
@@ -111,9 +111,16 @@ button:focus {
   width:20px;
 }
 
-h4 {
+#category {
   margin: 0 0 1.5% 11%;
   padding: 5% 0 0 0;
+  font-weight: 600;
+}
+
+h4 {
+  margin: 0 0 1.5% 11%;
+  padding: 0;
+  font-weight: 600;
 }
 
 #min-sec {
@@ -154,15 +161,14 @@ h4 {
 
 .start-btn {
   align-self: flex-end;
-  margin: 5% 0  ;
-  margin-right: 11%;
+  margin: 2% 11% 5% 0;
   padding: 1% 5%;
   text-transform: uppercase;
 }
 
 aside {
   background: #26222D;
-  border-left: 1px solid #46424d;
+  border-left: 3px solid #46424d;
   width: 33.3%;
 }
 
@@ -211,7 +217,7 @@ h5 {
 }
 
 p {
-  font-size: 200%;
+  font-size: 100%;
   margin: 0;
   margin-bottom: 5%;
 }
@@ -232,5 +238,5 @@ p {
 
 .aside2 {
   background: #26222D;
-  border-left: 1px solid #46424d;
+  border-left: 3px solid #46424d;
   width: 33.3%;
