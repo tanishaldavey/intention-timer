@@ -1,4 +1,4 @@
-// VARIABLES BEGIN
+// VARIABLES
 var question = document.querySelector('.question');
 var minutes = document.querySelector('.minutes');
 var seconds = document.querySelector('.seconds');
@@ -22,6 +22,8 @@ var wrapper = document.querySelector('.wrapper');
 var wrapper2 = document.querySelector('.wrapper2');
 var activityTitle = document.querySelector('.activity-title');
 var timer = document.querySelector('.timer')
+var startTimeBtn = document.querySelector('.start-time');
+var timer = document.querySelector('.timer');
 
 //ACTIVITY BUTTONS
 changeStudyBtn.addEventListener('click', function () {
@@ -46,19 +48,6 @@ changeExerciseBtn.addEventListener('click', function () {
 minutes.addEventListener('keyup', checkInputMinutes);
 seconds.addEventListener('keyup', checkInputSeconds);
 
-//Checks if the minutes input field contains the letter e.
-function checkInputMinutes() {
-  if (event.keyCode === 69) {
-    alert('Minutes must contain a number between 0 and 60.');
-  }
-}
-//Checks if the seconds input field contains the letter e.
-function checkInputSeconds() {
-  if (event.keyCode === 69) {
-    alert('Seconds must contain a number between 0 and 60.');
-  }
-}
-
 //START ACTIVITY BUTTON
 startButton.addEventListener('click', function() {
   if (question.value === '') {
@@ -77,12 +66,20 @@ startButton.addEventListener('click', function() {
   }
 });
 
+//CHECK IF THE MINUTES INPUT FIELD CONTAINS THE LETTER E.
+function checkInputMinutes() {
+  if (event.keyCode === 69) {
+    alert('Minutes must contain a number between 0 and 60.');
+  }
+}
+//CHECK IF THE SECONDS INPUT FIELD CONTAINS THE LETTER E.
+function checkInputSeconds() {
+  if (event.keyCode === 69) {
+    alert('Seconds must contain a number between 0 and 60.');
+  }
+}
 
-var startTimeBtn = document.querySelector('.start-time');
-var timer = document.querySelector('.timer');
-
-
-
+// STARTS TIMER BASED ON USER INPUT
 function startTimer(duration, display) {
     var timer = duration, minutes, seconds;
 
